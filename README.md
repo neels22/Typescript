@@ -1,2 +1,2 @@
 # Typescript
-typescript learnings
+Typescript learnings
