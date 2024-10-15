@@ -11,7 +11,7 @@ class Employee implements Person {
 
     name:string;
     age:number;
-    
+
     constructor(n:string,a:number) {
         
         this.name=n; 
@@ -25,4 +25,4 @@ class Employee implements Person {
 }
 
 const e = new Employee("neel",3)
-console.log(e.greet("hi there "))
+e.greet("hi there ")
