@@ -9,4 +9,4 @@ class Employee {
     }
 }
 const e = new Employee("neel", 3);
-console.log(e.greet("hi there "));
+e.greet("hi there ");

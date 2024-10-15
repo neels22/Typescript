@@ -5,7 +5,7 @@ type Users = {
     age:number
 }
 
-function isLegal(user:Users) {
+function isLegal3(user:Users) {
     
 console.log("hi " + user.name)
 
@@ -17,11 +17,11 @@ console.log("hi " + user.name)
 
 type strno = string | number
 
-function greet(id:strno) {
+function greet2(id:strno) {
     console.log(id)
 }
-greet(2)
-greet("3")
+greet2(2)
+greet2("3")
 
 //////////////////////
 
